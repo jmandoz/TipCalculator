@@ -11,7 +11,7 @@ import Foundation
 struct TipCalculator {
     static var bill: Double = 0
     static var billWithTip: Double = 0
-    static var numberOfPeople: Int = 0
+    static var numberOfPeople: Double = 0
     static var pricePerPerson: Double = 0
     }
 

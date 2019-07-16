@@ -13,7 +13,7 @@
 		A45D521822DD1A3400FE3FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45D521722DD1A3400FE3FD4 /* Assets.xcassets */; };
 		A45D521B22DD1A3400FE3FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45D521922DD1A3400FE3FD4 /* LaunchScreen.storyboard */; };
 		A45D522422DD278A00FE3FD4 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D522322DD278A00FE3FD4 /* TipCalculator.swift */; };
-		A45D522622DD294700FE3FD4 /* TipCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D522522DD294700FE3FD4 /* TipCalculatorController.swift */; };
+		A45D522E22DD38D000FE3FD4 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D522D22DD38D000FE3FD4 /* StyleGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		A45D521A22DD1A3400FE3FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45D521C22DD1A3400FE3FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45D522322DD278A00FE3FD4 /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
-		A45D522522DD294700FE3FD4 /* TipCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorController.swift; sourceTree = "<group>"; };
+		A45D522D22DD38D000FE3FD4 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		A45D520F22DD1A3300FE3FD4 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				A45D522C22DD38C100FE3FD4 /* CustomUI */,
 				A45D522222DD276800FE3FD4 /* Model */,
 				A45D522A22DD299900FE3FD4 /* View */,
 				A45D522922DD297500FE3FD4 /* Controller */,
@@ -74,14 +75,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A45D522722DD294F00FE3FD4 /* Model Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A45D522522DD294700FE3FD4 /* TipCalculatorController.swift */,
-			);
-			path = "Model Controller";
-			sourceTree = "<group>";
-		};
 		A45D522822DD295C00FE3FD4 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +86,6 @@
 		A45D522922DD297500FE3FD4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A45D522722DD294F00FE3FD4 /* Model Controller */,
 				A45D522822DD295C00FE3FD4 /* View Controller */,
 			);
 			path = Controller;
@@ -116,6 +108,14 @@
 				A45D521C22DD1A3400FE3FD4 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A45D522C22DD38C100FE3FD4 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A45D522D22DD38D000FE3FD4 /* StyleGuide.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +191,8 @@
 			files = (
 				A45D522422DD278A00FE3FD4 /* TipCalculator.swift in Sources */,
 				A45D521322DD1A3300FE3FD4 /* ViewController.swift in Sources */,
+				A45D522E22DD38D000FE3FD4 /* StyleGuide.swift in Sources */,
 				A45D521122DD1A3300FE3FD4 /* AppDelegate.swift in Sources */,
-				A45D522622DD294700FE3FD4 /* TipCalculatorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
